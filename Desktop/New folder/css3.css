@@ -1,0 +1,273 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color:white;
+    padding: 0;
+    margin:0;
+}
+
+
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.wallpaperscraft.com/image/glass_coffee_light_cafe_115603_1366x768.jpg");
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+header{
+    
+    background-image: url(https://i.pinimg.com/originals/e8/57/4d/e8574da5cd8a28c1d9d99356e0163301.jpg);
+    color:black;
+    padding-top: 0px;
+    min-height: 20px;
+    border-bottom: 1px dotted #dddddd;
+    margin-top:-1.2;
+}
+header a{
+    color: #dddddd;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 100%;
+    transition: 0.7s;
+    font-weight: bold;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float: left;
+    display:inline;
+    padding: 0 17px 0 17px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: :20px;
+    border-top-right-radius:0.1px;
+    border-bottom-left-radius:0.1px;
+}
+header li:hover{
+    transition: all 0s ease-in-out;
+    background-color:#BCD5D1;
+    opacity: 0.9;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+header li:hover a{
+    transition: 1s;
+    color:rgb(6, 104, 104);
+}
+.divHeader{
+    width: :100%;
+    margin: auto;
+    overflow: hidden;
+}
+header #divH1{
+    min-height: 60px;
+    width:20%;
+    float: left;
+}
+header nav{
+    float:right;
+    margin-top:40px;
+    margin-top:6%;
+    margin-right:7%;
+}
+#divH1 img{
+    width: 55%;
+    margin-top: -4%;
+    margin-bottom: -4%;
+    margin-left: 40%;
+}
+#footer{
+    width:100%;
+    height: 40px;
+    min-height: 40px;
+    background: black;
+    border-top: 2px dotted #bcafda;
+    position: absolute;
+    bottom: 0;
+    color:cornsilk;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    text-align:center;
+    font-weight: bold;
+    font-size:90%; 
+  }
+  
+  #content-wrap {
+    padding-bottom: 2rem  
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+  }
+  .emrat{
+      text-align: center;
+      color: white;
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #sectionImg h2{
+    text-align: center;
+    color: white;
+}
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(16, 1, 150);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: gray;
+  }
+  
+  .contact{
+    background: linear-gradient(#021C28,#851448);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10% 10%;
+    color:#fff;
+    transition: 1s;
+  }
+  
+  .grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+  }
+  .social{
+    width: 60px;
+  }
+
+  #footer {
+   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+  }
+
+
+#sectionImg{
+    width:100%;
+    min-height: 520px;
+    background:url('https://cdn.pling.com/img/b/f/6/c/125ac9300428bfa3aa0ec3da27361d679aad.png') no-repeat -700px -500px;
+    position: center;
+}
+#sectionImg:hover{
+    transition: 4s; 
+    background: url('https://cdn.pling.com/img/b/f/6/c/125ac9300428bfa3aa0ec3da27361d679aad.png') no-repeat -750px -800px;
+}
+
+#sectionImg img{
+    width:100%;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #945023 5%, #945023 100%);
+	background-color:#8d5b31;
+	border-radius:18px;
+	border:10px solid #945023;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #573316 5%, #806236 100%);
+	background-color:#9e712d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#sectionImg h1{
+    text-align: center;
+    margin-top:15%; 
+    font-size:390%;
+    margin-bottom:10px;
+    color: #DDDDDD;
+    margin-left:10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Description{
+    width:100%;
+    min-height:250px;
+    background-image: url("https://i.pinimg.com/originals/09/52/e9/0952e9d8c44d9e1fcc1e9b6da06ca49c.jpg");
+    color: white;
+    text-align: center;
+    border-bottom: 2px #003345 solid;
+    border-bottom: 1px #b9b9b9 dotted;
+}
+#Description section{
+    display: inline-block;
+    width:18%;
+    padding: 5px 2%;
+    margin-top: 20px;
+    border: 2px double gray;
+    border-radius: 300px;
+}
+#Description h2{
+    color: #DDDDDD;
+}
+#Description a{
+    color:#FF4136;
+    text-decoration: none;
+    transition:2s;
+}
+#Description a:hover{
+    transition: 1.5s;
+    color: #0074D9;
+}
+#Description a:active{
+    color: #85144b;
+}
+.paragraf4242{
+    margin-top: -1em;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.permbajtjak{
+    max-width:600px;   
+    text-align:center;
+    margin-left: 22%;
+    background-color: rgb(107, 61, 43);
+}
+
+#foto{
+    width:45px;
+    height:45px;
+    position: right;
+}

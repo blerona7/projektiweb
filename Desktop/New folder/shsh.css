@@ -1,0 +1,227 @@
+body{
+  font-family: 'Open Sans',sans-serif;
+  background-color:white;
+  padding: 0;
+  margin:0;
+}
+
+body, html {
+  height: 100%;
+}
+
+header{
+  
+  background-image: url(https://i.pinimg.com/originals/e8/57/4d/e8574da5cd8a28c1d9d99356e0163301.jpg);
+  color:black;
+  padding-top: 0px;
+  min-height: 20px;
+  border-bottom: 1px dotted #dddddd;
+  margin-top:-1.2;
+}
+header a{
+  color: #dddddd;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 100%;
+  transition: 0.7s;
+  font-weight: bold;
+}
+header ul{
+  margin:0;
+  padding:0;
+}
+header li{
+  float: left;
+  display:inline;
+  padding: 0 17px 0 17px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: :20px;
+  border-top-right-radius:0.1px;
+  border-bottom-left-radius:0.1px;
+}
+header li:hover{
+  transition: all 0s ease-in-out;
+  background-color:#BCD5D1;
+  opacity: 0.9;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+header li:hover a{
+  transition: 1s;
+  color:rgb(6, 104, 104);
+}
+.divHeader{
+  width: :100%;
+  margin: auto;
+  overflow: hidden;
+}
+header #divH1{
+  min-height: 60px;
+  width:20%;
+  float: left;
+}
+header nav{
+  float:right;
+  margin-top:40px;
+  margin-top:6%;
+  margin-right:7%;
+}
+#divH1 img{
+  width: 55%;
+  margin-top: -4%;
+  margin-bottom: -4%;
+  margin-left: 40%;
+}
+#footer{
+  width:100%;
+  height: 40px;
+  min-height: 40px;
+  background: #19037e;
+  border-top: 2px dotted #bcafda;
+  position: absolute;
+  bottom: 0;
+  color:cornsilk;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {  
+  background: url(https://wallpaperaccess.com/full/187161.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  background-color: #4262a7;
+  color: white;
+} 
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+}
+.emrat{
+    text-align: center;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+  text-justify: auto;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(126, 81, 30);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-top:0;
+  }
+}
+
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  text-align:center;
+  font-weight: bold;
+  font-size:90%; 
+}
+
+ 
+#content-wrap {
+  padding-bottom: 2rem  
+   
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(7, 7, 117);
+  color: white;
+  text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.contact{
+  background: linear-gradient(#021C28,#851448);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10% 10%;
+  color:#fff;
+  transition: 1s;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+.social{
+  width: 60px;
+} 

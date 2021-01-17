@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakti</title>
+        <link rel="stylesheet" type="text/css" href="kontakti.css">
+        <script src="script.js" ></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="divHeader">
+                <div id="divH1">
+                    <a href="Rendsi.html">
+                        <img src="https://www.freepnglogos.com/uploads/coffee-logo-png/coffee-logo-design-creative-idea-logo-elements-2.png" alt="Logo" width="70px">                        
+                    </a>
+                </div>
+                <nav>
+                <ul>
+                        <li>
+                            <a href="rendsi.html">
+                            <span style="color: red">Home</span></a>
+                        </li>
+                        <li>
+                            <a href="rrethnesh.html">Rreth nesh</a>
+                        </li>
+                        <li>
+                            <a href="shsh.html">Sherbimet</a>
+                        </li>
+                        <li>
+                            <a href="shshsh.html">Sherbime tjera</a>
+                        </li>
+                        <li>
+                            <a href="kontakti.html">Kontakti</a>
+                        </li>
+                        <li>
+                            <a href="regjistrohu.html">Regjistrohuni</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="bg">
+        <content>
+            <div class="contact-title">
+                <h1>Plotesoni te dhenat: </h1>
+            </div>
+            <div class="contact-form">
+                <form class="form" name="form">
+                    
+                <form id="contact-form">
+                    <input name="name" type="text" class="form-control" placeholder="Emri dhe mbiemri juaj" required><br>
+                    <input name="addresa" type="text" class="form-control" placeholder="Adresa ku banoni" required><br>
+                    <input name="numri" type="tel" class="form-control" placeholder="Numri i telefonit tuaj" required><br>
+                    <textarea name="message" class="form-control" placeholder="Shtese" rows=3 ></textarea><br>
+                </form>
+            </div>
+
+            <section id="sectionImg">
+                <div class="divHeader"> 
+                    <a href="shsh.html" class="myButton">Dergo Porosine!</a>
+                    </section>
+                </div>
+              </div>
+        </content>
+        </div>
+    </body>
+    <script type="text/javascript">
+
+        function validation()
+        {
+        
+        var un = document.forms["form"]["username"].value;
+        var ps = document.forms["form"]["password"].value;
+        
+        var pwd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
+        var letters = /^[A-Za-z]+$/;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        
+        if(un=='')
+        {
+        alert('Ju lutem shkruani emrin!');
+        }
+        else if(!letters.test(un))
+        {
+        alert('Fusha e username-it kerkon vetem shkronja');
+        }
+        else if(ps=='')
+        {
+        alert('Ju lutem shenoni passwordin!');
+        }
+        else if(!pwd_expression.test(ps))
+        {
+        alert ('Shkronje te madhe, shkronja te vogla, karaktere speciale dhe numra kerkohen per fushen e passwordit');
+        }
+        else if(document.getElementById("password").value.length < 6)
+        {
+        alert ('Gjatesia e passwordit eshte minimum 6');
+        return false;
+        }
+        else
+        {                            
+                       alert('Thank You for registering!');
+                       return true;
+        }
+        f(un.value.length < 6)
+        {
+        alert('Password-i duhet te permbaje me shume se 6 shkronja');
+        }
+        }
+        
+        </script>
+    
+<footer>
+    <div class="footer">
+      <p>info@alright.com</p>
+    </div>
+</footer>
+</html>

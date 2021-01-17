@@ -1,0 +1,163 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color:white;
+    padding: 0;
+    margin:0;
+}
+    .bg {
+      background-image:  url("https://image.freepik.com/free-photo/blank-paper-sheet-pencil-with-coffee_35913-511.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+header{
+    background-image: url(https://i.pinimg.com/originals/e8/57/4d/e8574da5cd8a28c1d9d99356e0163301.jpg);    
+    color: black;
+    padding-top: 0px;
+    min-height: 20px;
+    border-bottom: 1px dotted #dddddd;
+    margin-top:-1.2;
+}
+header a{
+    color: #dddddd;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 100%;
+    transition: 0.7s;
+    font-weight: bold;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float: left;
+    display:inline;
+    padding: 0 17px 0 17px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: :20px;
+    border-top-right-radius:0.1px;
+    border-bottom-left-radius:0.1px;
+}
+header li:hover{
+    transition: 0.6s;
+    background-color:#BCD5D1;
+    opacity: 0.9;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+header li:hover a{
+    transition: 1s;
+    color:rgb(6, 104, 104);
+}
+.divHeader{
+    width: :100%;
+    margin: auto;
+    overflow: hidden;
+}
+header #divH1{
+    min-height: 60px;
+    width:20%;
+    float: left;
+}
+header nav{
+    float:right;
+    margin-top:40px;
+    margin-top:6%;
+    margin-right:7%;
+}
+#divH1 img{
+    width: 55%;
+    margin-top: -4%;
+    margin-bottom: -4%;
+    margin-left: 40%;
+}
+content{
+    margin: 0;
+    padding:0;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-title{
+    margin-top:100px;
+    color:rgb(26, 2, 2);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.form-title h1{
+    font-size:32 px;
+    line-height: 10px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width:600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color: rgb(34, 17, 17);
+    font-size:18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+  
+#sectionImg{
+    width:100%;
+    min-height: 520px;
+    background:url('https://cdn.pling.com/img/b/f/6/c/125ac9300428bfa3aa0ec3da27361d679aad.png') no-repeat -700px -500px;
+    position: center;
+}
+#sectionImg:hover{
+    transition: 4s; 
+    background: url('https://cdn.pling.com/img/b/f/6/c/125ac9300428bfa3aa0ec3da27361d679aad.png') no-repeat -750px -800px;
+}
+#sectionImg img{
+    width:100%;
+}
+
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #945023 5%, #945023 100%);
+	background-color:#8d5b31;
+	border-radius:18px;
+	border:10px solid #945023;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #573316 5%, #806236 100%);
+	background-color:#9e712d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(7, 7, 117);
+    color: white;
+    text-align: center;
+  }
